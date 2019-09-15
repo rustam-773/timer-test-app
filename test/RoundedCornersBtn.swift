@@ -39,19 +39,4 @@ class RoundedCornersBtn: UIButton {
      
     }
     
-   
-    
-//    override func layoutSubviews() {
-//        let gradientLayer = CAGradientLayer()
-//        gradientLayer.colors = [startColor.cgColor, endColor.cgColor]
-//        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
-//        gradientLayer.endPoint = CGPoint(x: 1, y: 1)
-//        gradientLayer.frame = self.bounds
-//        self.layer.insertSublayer(gradientLayer, at: 0)
-//        self.layer.cornerRadius = 20
-//
-//    }
-
-    
-
 }
