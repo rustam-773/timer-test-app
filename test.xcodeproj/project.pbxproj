@@ -61,11 +61,11 @@
 				4AC8284F232E14EF0047145A /* AppDelegate.swift */,
 				4AC82851232E14EF0047145A /* TimerViewController.swift */,
 				4AC82861232E262A0047145A /* TrialViewController.swift */,
+				4AC82863232E2ECE0047145A /* RoundedCornersBtn.swift */,
 				4AC82853232E14EF0047145A /* Main.storyboard */,
 				4AC82856232E14F20047145A /* Assets.xcassets */,
 				4AC82858232E14F20047145A /* LaunchScreen.storyboard */,
 				4AC8285B232E14F20047145A /* Info.plist */,
-				4AC82863232E2ECE0047145A /* RoundedCornersBtn.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";

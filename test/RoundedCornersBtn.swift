@@ -22,19 +22,16 @@ class RoundedCornersBtn: UIButton {
         }
     }
     
+    // функция для закругления углов и добавления градиентного цвета для кнопки
     override func awakeFromNib() {
         super.awakeFromNib()
         
         self.layer.cornerRadius = 25
-
-//        layer.cornerRadius = 25
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [startColor.cgColor, endColor.cgColor]
-
         gradientLayer.frame = layer.bounds
         gradientLayer.cornerRadius = 25
         gradientLayer.masksToBounds = true
-//        gradientLayer.borderWidth = 1
         gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
         gradientLayer.endPoint = CGPoint (x: 1, y: 0.5)
         self.layer.insertSublayer(gradientLayer, at: 0)
